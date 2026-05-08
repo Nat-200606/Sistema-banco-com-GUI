@@ -15,12 +15,12 @@ public class FrameInicial extends FrameBase implements ActionListener {
         entrar = new ButtonBase("entrar em uma conta");
         entrar.setFont(fonte);
         entrar.addActionListener(this);
-        entrar.setBounds(160,100,260,50);
+        entrar.setLocation(160,40);
 
         criar = new ButtonBase("criar uma conta");
         criar.setFont(fonte);
         criar.addActionListener(this);
-        criar.setBounds(160,250,260,50);
+        criar.setLocation(160,250);
 
         this.setSize(600,560);
 

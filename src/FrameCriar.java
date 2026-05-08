@@ -18,7 +18,7 @@ public class FrameCriar extends FrameBase implements ActionListener {
         criar = new ButtonBase("Criar conta");
         criar.setFont(fonte);
         criar.addActionListener(this);
-        criar.setBounds(120,150,260,50);
+        criar.setLocation(120,150);
 
         this.add(criar);
         this.add(criarconta);

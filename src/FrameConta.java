@@ -18,12 +18,12 @@ public class FrameConta extends FrameBase implements ActionListener {
         saldo.setFocusable(false);
 
         depositar = new ButtonBase("Depositar");
-        depositar.setBounds(160,110,260,50);
+        depositar.setLocation(160,110);
         depositar.setFont(fonte);
         depositar.addActionListener(this);
 
         sacar = new ButtonBase("Sacar");
-        sacar.setBounds(160,180,260,50);
+        sacar.setLocation(160,230);
         sacar.setFont(fonte);
         sacar.addActionListener(this);
 

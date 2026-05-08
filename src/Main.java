@@ -8,7 +8,6 @@ public class Main {
     public static int posAtual;
     public static void main(String[] args) {
 
-
         FrameInicial inicial = new FrameInicial();
 
 

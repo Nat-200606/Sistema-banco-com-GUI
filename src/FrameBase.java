@@ -4,7 +4,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class FrameBase extends JFrame{
-    Font fonte = new Font("MV Boli",Font.PLAIN,20);
+    Font fonte = new Font("MV Boli",Font.PLAIN,21);
     FrameBase(){
         ImageIcon icon = new ImageIcon("money.png");
 
