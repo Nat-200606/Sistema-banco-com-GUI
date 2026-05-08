@@ -15,6 +15,7 @@ public class FrameBase extends JFrame{
         this.getContentPane().setBackground(Color.DARK_GRAY);
         this.setResizable(false);
         this.setTitle("Banco");
+        this.setLocation(360,80);
 
     }
 }

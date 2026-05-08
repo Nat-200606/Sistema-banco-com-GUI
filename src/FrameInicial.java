@@ -9,13 +9,13 @@ public class FrameInicial extends FrameBase implements ActionListener {
     FrameInicial() {
         entrarconta = new JTextField();
         entrarconta.setFont(fonte);
-        entrarconta.setBounds(160,160,260,50);
+        entrarconta.setBounds(160,60,260,50);
         entrarconta.setToolTipText("numero da conta");
 
         entrar = new ButtonBase("entrar em uma conta");
         entrar.setFont(fonte);
         entrar.addActionListener(this);
-        entrar.setLocation(160,40);
+        entrar.setLocation(160,120);
 
         criar = new ButtonBase("criar uma conta");
         criar.setFont(fonte);
