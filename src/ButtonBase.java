@@ -15,7 +15,7 @@ public class ButtonBase extends JButton {
         //this.setBackground(Color.decode("#61A966"));
         this.setText(text);
         this.setForeground(Color.BLACK);
-        this.setBounds(190,70,255,115);
+        this.setBounds(190,70,260,115);
         this.setFocusable(false);
         this.setContentAreaFilled(false);
     }
