@@ -17,5 +17,6 @@ public class ButtonBase extends JButton {
         this.setForeground(Color.BLACK);
         this.setBounds(190,70,255,115);
         this.setFocusable(false);
+        this.setContentAreaFilled(false);
     }
 }
